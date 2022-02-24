@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wall
+  m_Name: Grass
   m_Shader: {fileID: -6465566751694194690, guid: 350edc24f71023c4198da47cb7c0d2d2,
     type: 3}
   m_ShaderKeywords: 
@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Details:
-        m_Texture: {fileID: 2800000, guid: 7908dfc75896816459e71790f7398a8d, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -49,11 +49,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Height:
-        m_Texture: {fileID: 2800000, guid: 501434c1d5c62024dac96e7ea3bad7eb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 39150056385ddbc46900c88546594824, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b62dc9e06415e82479d7f227506c016f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6d8ad1d2267b96d4b80a0a7f797c0b95, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -119,7 +119,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _Tiling_Multiplier: 1
+    - _Tiling_Multiplier: 10
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
