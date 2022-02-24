@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ae70672aa781240a0eb580fcb66ae9, type: 3}
+  m_Name: Avatar
+  m_EditorClassIdentifier: 
+  asset: {fileID: 11400000}
+  walkingSpeed: 5
+  runningSpeed: 12
+  speedOverForward:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  smoothingTime: 0.125
+  metersPerStep: 2
+  jumpGravityMultiplier: 0.75
+  jumpStartSpeed: {x: -2, y: 9}
+  jumpShortStopSpeed: {x: 2, y: 4}
+  jumpMediumStopSpeed: {x: 1, y: 4}
+  jumpLongStopSpeed: {x: -1, y: 4}
+  shortJumpInputDuration: 0.1
+  mediumJumpInputDuration: 0.2
+  shortJumpExecutionDuration: 0.1
+  mediumJumpExecutionDuration: 0.2
+  longJumpExecutionDuration: 0.4
+  cameraSpeed: {x: 0.25, y: 0.25}
+  cameraSmoothing: 0.0625
+  cameraMinX: -120
+  cameraMaxX: 60
+  defaultFieldOfView: 75
+  runningFieldOfView: 85
+  fieldOfViewSmoothingTime: 0.25
+  onJumpCountChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  onStep:
+    m_PersistentCalls:
+      m_Calls: []
