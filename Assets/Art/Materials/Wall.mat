@@ -8,10 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Wall
-  m_Shader: {fileID: -6465566751694194690, guid: 350edc24f71023c4198da47cb7c0d2d2,
+  m_Shader: {fileID: -6465566751694194690, guid: c57f8cf1b4400d745bcd092b62a4472c,
     type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -104,13 +104,16 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Emission_Strength: 10
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
+    - _Normal_Strength: 8
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _Parallax_Strength: 4
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
