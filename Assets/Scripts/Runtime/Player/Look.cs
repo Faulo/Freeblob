@@ -85,9 +85,11 @@ namespace FreeBlob.Player {
 
         void RegisterInput() {
             input.Look.performed += HandleLook;
+            input.Menu.performed += HandleMenu;
         }
         void UnregisterInput() {
             input.Look.performed -= HandleLook;
+            input.Menu.performed -= HandleMenu;
         }
 
         void HandleLook(InputAction.CallbackContext context) {
@@ -98,6 +100,10 @@ namespace FreeBlob.Player {
                 verticalTargetAngle -= deltaLook.y;
                 verticalTargetAngle = Mathf.Clamp(verticalTargetAngle, settings.cameraMinX, settings.cameraMaxX);
             }
+        }
+
+        void HandleMenu(InputAction.CallbackContext context) {
+            isLocked = !isLocked;
         }
 
         public void Update(float deltaTime) {
