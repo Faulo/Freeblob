@@ -35,10 +35,10 @@
             "m_Id": "db8171b068c64cadadfb93e3f6b3d3bb"
         },
         {
-            "m_Id": "deb5b8ae4c7c428ab84286c47e3f2376"
+            "m_Id": "cc9c272efec84d1dba1f683a964681a8"
         },
         {
-            "m_Id": "cc9c272efec84d1dba1f683a964681a8"
+            "m_Id": "deb5b8ae4c7c428ab84286c47e3f2376"
         }
     ],
     "m_Nodes": [
@@ -1154,7 +1154,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.0,
+    "m_Value": 4.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -1624,7 +1624,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "cc9c272efec84d1dba1f683a964681a8",
-    "m_Name": "Misc",
+    "m_Name": "Details",
     "m_ChildObjectList": [
         {
             "m_Id": "64a988cdcb9b47f5886325b6d8643c30"

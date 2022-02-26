@@ -1641,7 +1641,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24816
+  m_Name: pb_Mesh24826
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1854,7 +1854,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24882
+  m_Name: pb_Mesh24892
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3368,7 +3368,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24896
+  m_Name: pb_Mesh24906
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3598,10 +3598,25 @@ PrefabInstance:
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: a670cdf7cd7df2a4c842c5a02f711076, type: 2}
+    - target: {fileID: 5898451250781030298, guid: de30bdb82c4fe0e40b5e899a609b876d,
+        type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898451250781030301, guid: de30bdb82c4fe0e40b5e899a609b876d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5898451250781030301, guid: de30bdb82c4fe0e40b5e899a609b876d,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898451250781030301, guid: de30bdb82c4fe0e40b5e899a609b876d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5898451251239731601, guid: de30bdb82c4fe0e40b5e899a609b876d,
         type: 3}
@@ -3616,7 +3631,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24854
+  m_Name: pb_Mesh24864
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

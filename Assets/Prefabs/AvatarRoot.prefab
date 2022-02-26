@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 5898451250781030303}
   - component: {fileID: 5898451250781030300}
   - component: {fileID: 1968338649726487561}
+  - component: {fileID: 7397420719991467976}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -325,6 +326,36 @@ AudioReverbFilter:
   m_LFReference: 250
   m_ReflectionsDelay: 0
   m_ReverbPreset: 6
+--- !u!114 &7397420719991467976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5898451250781030296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d0a7e90c8756347867b530627c6d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_observedComponent: {fileID: 5898451250781030298}
+  cullingMatrix:
+    e00: 0.0000100001
+    e01: 0
+    e02: 0
+    e03: -0
+    e10: 0
+    e11: 0.0000100001
+    e12: 0
+    e13: -0
+    e20: 0
+    e21: 0
+    e22: -0.0000200002
+    e23: -0.000000020920197
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
 --- !u!1 &5898451251030740945
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +490,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1618497, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

@@ -177,6 +177,7 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Emission_Strength: 10
     - _EnableHeightBlend: 0
     - _EnableInstancedPerPixelNormal: 1
     - _EnvironmentReflections: 1
@@ -189,9 +190,11 @@ Material:
     - _Metallic1: 0
     - _Metallic2: 0
     - _Metallic3: 0
+    - _Normal_Strength: 8
     - _NumLayersCount: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _Parallax_Strength: 4
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
