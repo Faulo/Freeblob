@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14926253c38d7dc4c927ad5587e332ae, type: 3}
+  m_Name: SubstanceAtlas
+  m_EditorClassIdentifier: 
+  asset: {fileID: 11400000}
+  sourceFolders:
+  - {fileID: 102900000, guid: aad01066df73c9c4686d819b37c9a49b, type: 3}
+  materialShader: {fileID: -6465566751694194690, guid: c57f8cf1b4400d745bcd092b62a4472c,
+    type: 3}
+  terrainMaterial: {fileID: 2100000, guid: c5d04a589ac801344994532b275837bb, type: 2}
+  substances:
+  - asepriteFile: {fileID: 0}
+    baseTexture: {fileID: 18700000, guid: 28c42f292e37f444384d36687a32909f, type: 3}
+    physicsMaterial: {fileID: 0}
+    renderMaterial: {fileID: 2100000, guid: 93fc220b1d823b54d91ec28a17273f1d, type: 2}
+    terrainLayer: {fileID: 8574412962073106934, guid: b4e15d1ddad8ca5488873c256f70b222,
+      type: 2}
+    diffuseTexture: {fileID: 2800000, guid: 8500837c385c0904caa4a25127ba0aab, type: 2}
+    heightTexture: {fileID: 2800000, guid: 04c5ebf825748de45b0d1638f76d5462, type: 2}
+    maskTexture: {fileID: 2800000, guid: b22f860b5179c204ca5389d3c6b7ed24, type: 2}
+  - asepriteFile: {fileID: 0}
+    baseTexture: {fileID: 18700000, guid: 14893416e92fb4948beaf0dd1ba332dd, type: 3}
+    physicsMaterial: {fileID: 0}
+    renderMaterial: {fileID: 2100000, guid: 0065078692dd60b43808e39f16e13670, type: 2}
+    terrainLayer: {fileID: 8574412962073106934, guid: ae1e2ef2efc44724a95f1c4d9245b74d,
+      type: 2}
+    diffuseTexture: {fileID: 2800000, guid: d4e015d78e5dc89499fa9a7b07a0059a, type: 2}
+    heightTexture: {fileID: 2800000, guid: 7955a8acbb7cd724791b6d139c5a671d, type: 2}
+    maskTexture: {fileID: 2800000, guid: ec12d88f6f2d3b7408fc104823293937, type: 2}
+  - asepriteFile: {fileID: 0}
+    baseTexture: {fileID: 18700000, guid: 9d5a5bcd03fcfc043b7c9bb664aaba60, type: 3}
+    physicsMaterial: {fileID: 0}
+    renderMaterial: {fileID: 2100000, guid: ed40fb1ef718a684fb0ed909355bb6f5, type: 2}
+    terrainLayer: {fileID: 8574412962073106934, guid: 5e21ce2b2ce50c94580c52b05d98c336,
+      type: 2}
+    diffuseTexture: {fileID: 2800000, guid: 86acf1b998a62cc45b374be1371e39c2, type: 2}
+    heightTexture: {fileID: 2800000, guid: 8d48a48d7c37647468654e3e0dfd1ccc, type: 2}
+    maskTexture: {fileID: 2800000, guid: 910fbd28094aea34bb34f822c9e557d0, type: 2}
+  - asepriteFile: {fileID: 0}
+    baseTexture: {fileID: 18700000, guid: ee5dd9481235cb04f9b58823a35dfb11, type: 3}
+    physicsMaterial: {fileID: 0}
+    renderMaterial: {fileID: 2100000, guid: 4ed0c587957439d468c8c2bdfefd9fd2, type: 2}
+    terrainLayer: {fileID: 8574412962073106934, guid: 906155aada26bbb439cdd2e17f6a8d8b,
+      type: 2}
+    diffuseTexture: {fileID: 2800000, guid: 4931ba166b7462b428fba6163c158b5d, type: 2}
+    heightTexture: {fileID: 2800000, guid: d0a1dada561cff84386fd069e6e39614, type: 2}
+    maskTexture: {fileID: 2800000, guid: cbbfebdd81068174bb2ab5849b35e29d, type: 2}
