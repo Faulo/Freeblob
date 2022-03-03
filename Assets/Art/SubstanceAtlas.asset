@@ -55,3 +55,12 @@ MonoBehaviour:
     diffuseTexture: {fileID: 2800000, guid: 4931ba166b7462b428fba6163c158b5d, type: 2}
     heightTexture: {fileID: 2800000, guid: d0a1dada561cff84386fd069e6e39614, type: 2}
     maskTexture: {fileID: 2800000, guid: cbbfebdd81068174bb2ab5849b35e29d, type: 2}
+  - asepriteFile: {fileID: 0}
+    baseTexture: {fileID: 18700000, guid: f961a76717e4c8c46b2e79a221ff59e7, type: 3}
+    physicsMaterial: {fileID: 0}
+    renderMaterial: {fileID: 2100000, guid: 22c4d5ca7ec2be444bcfecc2bc3cde52, type: 2}
+    terrainLayer: {fileID: 8574412962073106934, guid: 4d8bc458d2c9ef24ea8431b99bb988d2,
+      type: 2}
+    diffuseTexture: {fileID: 2800000, guid: c9a02d4659caa4a41af8120b2514d62b, type: 2}
+    heightTexture: {fileID: 2800000, guid: 846171edf5ae79b44abaf444de07d182, type: 2}
+    maskTexture: {fileID: 2800000, guid: 5ca36aac57d966443a7fa9970cd7ff75, type: 2}
