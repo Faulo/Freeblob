@@ -47,8 +47,6 @@ namespace FreeBlob.Art {
             protected override void DrawEditorTools() {
                 DrawButton("RefreshAtlas", target.Co_RefreshAtlas);
             }
-            protected void DrawButton(string label, Func<IEnumerator> coroutine)
-                => DrawButton(label, () => Unity.EditorCoroutines.Editor.EditorCoroutineUtility.StartCoroutine(coroutine(), target));
         }
         IEnumerator Co_RefreshAtlas() {
             yield return null;
