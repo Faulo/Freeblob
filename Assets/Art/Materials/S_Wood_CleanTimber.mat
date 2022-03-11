@@ -59,7 +59,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Curvature: -0.1
+    - _Curvature: 0
     - _Emission_Strength: 10
     - _Normal_Strength: 1
     - _Parallax_Strength: 0
