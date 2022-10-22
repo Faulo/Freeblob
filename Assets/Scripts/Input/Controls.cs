@@ -220,30 +220,8 @@ namespace FreeBlob.Input
         {
             ""name"": ""UI"",
             ""id"": ""b10567cd-d336-45ab-a68f-240106ae4dc6"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""08e6349a-bc91-465c-8b2d-27e384f9a453"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""9620bd27-6e12-45d9-b7b2-269b5034ef78"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
+            ""actions"": [],
+            ""bindings"": []
         }
     ],
     ""controlSchemes"": []
@@ -259,7 +237,6 @@ namespace FreeBlob.Input
             m_Avatar_Special = m_Avatar.FindAction("Special", throwIfNotFound: true);
             // UI
             m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
-            m_UI_Newaction = m_UI.FindAction("New action", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -400,12 +377,10 @@ namespace FreeBlob.Input
         // UI
         private readonly InputActionMap m_UI;
         private IUIActions m_UIActionsCallbackInterface;
-        private readonly InputAction m_UI_Newaction;
         public struct UIActions
         {
             private @Controls m_Wrapper;
             public UIActions(@Controls wrapper) { m_Wrapper = wrapper; }
-            public InputAction @Newaction => m_Wrapper.m_UI_Newaction;
             public InputActionMap Get() { return m_Wrapper.m_UI; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -415,16 +390,10 @@ namespace FreeBlob.Input
             {
                 if (m_Wrapper.m_UIActionsCallbackInterface != null)
                 {
-                    @Newaction.started -= m_Wrapper.m_UIActionsCallbackInterface.OnNewaction;
-                    @Newaction.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnNewaction;
-                    @Newaction.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnNewaction;
                 }
                 m_Wrapper.m_UIActionsCallbackInterface = instance;
                 if (instance != null)
                 {
-                    @Newaction.started += instance.OnNewaction;
-                    @Newaction.performed += instance.OnNewaction;
-                    @Newaction.canceled += instance.OnNewaction;
                 }
             }
         }
@@ -441,7 +410,6 @@ namespace FreeBlob.Input
         }
         public interface IUIActions
         {
-            void OnNewaction(InputAction.CallbackContext context);
         }
     }
 }
