@@ -18,6 +18,7 @@ unityPipeline {
     // which platforms to deploy to
     DEPLOY_TO_STEAM = '0'
     DEPLOY_TO_ITCH = '0'
+    DEPLOY_TO_DISCORD = '1'
     
     // configration for deploying to steam
     STEAM_ID = ''
@@ -27,4 +28,7 @@ unityPipeline {
     // configuration for deploying to itch
     ITCH_ID = ''
 	ITCH_CREDENTIALS = 'Faulo-itch.io'
+	
+	// configuration for deploying to Discord
+	DISCORD_WEBHOOK = 'https://discord.com/api/webhooks/1212065950833049720/66T-CV9P8Lxf9f0jbuOPtFwEMD0TcCgsqcICdGrItlSteUt0J58q_knCf7_N6SYKRTTj'
 }
