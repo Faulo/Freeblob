@@ -1,4 +1,5 @@
 node {
+checkout scm
 							commitMessage = ""
 							for ( changeLogSet in currentBuild.changeSets){
 								for (entry in changeLogSet.getItems()){
