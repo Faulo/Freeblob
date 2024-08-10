@@ -35,7 +35,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
-      "version": "2.9.7",
+      "version": "2.10.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -94,7 +94,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.recorder": {
-      "version": "4.0.2",
+      "version": "4.0.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -157,7 +157,7 @@
       }
     },
     "com.unity.terrain-tools": {
-      "version": "5.0.4",
+      "version": "5.0.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -178,7 +178,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.8",
+      "version": "3.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
