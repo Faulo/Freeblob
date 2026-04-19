@@ -21,7 +21,7 @@ $RECYCLE.BIN/
 !/Doxyfile
 
 # == Jenkins ==
-!/Jenkinsfile*
+!/.jenkins
 
 # == Visual Studio ==
 !.editorconfig
