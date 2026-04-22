@@ -1,28 +1,29 @@
 pipeline {
-	agent {
-		label '(linux && docker) || (windows && unity)'
-	}
+    agent {
+        label '(linux && docker) || (windows && unity)'
+    }
 
-	options {
-		disableConcurrentBuilds()
-		disableResume()
-	}
+    options {
+        disableConcurrentBuilds()
+        disableResume()
+        disableRestartFromStage()
+    }
 
-	stages {
-		stage('Read unityProject.properties') {
-			steps {
-				script {
-					def unityConfig = readProperties file: '.jenkins/unityProject.properties'
+    stages {
+        stage('Read unityProject.properties') {
+            steps {
+                script {
+                    def unityConfig = readProperties file: '.jenkins/unityProject.properties'
 
-					if (isUnix()) {
-						docker.image('faulo/compose-unity:latest').inside {
-							unityProject(unityConfig)
-						}
-					} else {
-						unityProject(unityConfig)
-					}
-				}
-			}
-		}
-	}
+                    if (isUnix()) {
+                        docker.image('faulo/compose-unity:latest').inside {
+                            unityProject(unityConfig)
+                        }
+                    } else {
+                        unityProject(unityConfig)
+                    }
+                }
+            }
+        }
+    }
 }
